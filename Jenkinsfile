@@ -10,9 +10,9 @@ pipeline {
     environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "10.128.0.32:8081"
-        NEXUS_REPOSITORY = "vprofile-release"
-	    NEXUS_REPO_ID = "vprofile-release"
+        NEXUS_URL = "34.125.140.89:8081"
+        NEXUS_REPOSITORY = "maven-releases"
+	    NEXUS_REPO_ID = "maven-releases"
         NEXUS_CREDENTIAL_ID = "nexuslogin"
         ARTVERSION = "${env.BUILD_ID}"
 		PROJECT_ID = 'genuine-fold-316617'
